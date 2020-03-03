@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: white;
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  border-bottom: 3px solid;
+  margin: 100px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: grey;
+}
+
+section {
+  height: 70vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#hero .profile-img {
+  width: 600px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 99px;
+}
+
+.column {
+  width: 75%;
+  text-align: center;
+  padding-left: 200px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+}
